@@ -1,0 +1,119 @@
+
+
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+
+* {
+   margin:0px;
+   padding:0px;
+   box-sizing: border-box;
+}
+body{
+
+font-size: 16px;
+font-weight: 900;
+font-family: "Red Hat Display", sans-serif;
+background-color: hsl(225, 100%, 94%);
+background-image: url( 'images/pattern-background-desktop.svg');
+background-repeat: no-repeat;
+text-align: center;
+}
+.container1{
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    transform: translate(-50%, -50%);
+    max-width: 450px;
+    background: white;
+    border-radius: 20px;
+    overflow: hidden;
+    
+}
+
+.container1 h2,h5 {
+    padding:20px;
+    color:hsl(223, 47%, 23%);
+    justify-content: space-between;
+    font-weight: 900;
+
+}
+
+.container1 h5 {
+    padding:20px;
+    color:hsl(224, 23%, 55%);
+    justify-content: space-between;
+    font-weight: 900;
+
+}
+.container2{
+    padding:20px;
+    background:hsl(225, 100%, 98%);
+    border-radius: 20px;
+
+}
+.name{
+    position:relative;
+    left:-40%;
+}
+.cname{
+    position:absolute;
+    top:409px;
+    left:20%;
+    font-weight:900;
+}
+.ccname{
+    position:absolute;
+    top:415px;
+    right:6%;
+    font-weight:900;
+}
+.ccname a:hover{
+    text-decoration: none;
+}
+
+.btn1{
+    display: block;
+    text-decoration: none;
+    padding: 20px 0;
+    border-radius: 12px;
+    margin: 30px 0;
+    font-weight: 900;
+    font-size:16px;
+    color:white;
+    background-color: hsl(245, 75%, 52%);
+}
+.btn1 p:hover {
+    color:hsl(223, 47%, 23%);
+}
+.btn2{
+    
+    color: hsl(224, 23%, 55%);
+    text-decoration: none;
+    font-weight: 900;
+}
+@media only screen and (max-width: 425px) {
+    body {
+        background-image: url(https://www.digitshack.com/codepen/mentor1/pattern-background-mobile.svg);
+        font-size: 14px;
+ 
+    }
+    .container1{
+        max-width: 87%;
+    }
+    .container h2,h5{
+        font-size:13px;
+    }
+    .container2{
+        padding:12px;
+    }
+    .name ,.cname,.ccname{
+        margin-left:10px;
+
+    }
+    .btn1 p{
+        font-size: 13px;
+        padding:13px;
+    }
+    .btn2{
+        font-size:13px;
+    }
+}

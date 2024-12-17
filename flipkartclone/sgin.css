@@ -1,0 +1,150 @@
+
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+}
+body{
+  background-color: #F1F2F4;
+}
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 20px;
+  background-color: #fff;
+  color: black;
+}
+.nav-left {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-left img {
+  height: 40px;
+}
+.search-bar {
+  display: flex;
+  align-items: center;
+  border: none;
+  border-radius: 5px;
+  overflow: hidden;
+  background-color: beige;
+}
+.search-bar input {
+  border: none;
+  padding: 10px 200px;
+  outline: none;
+  flex: 1;
+  background: beige;
+}
+.search-bar button {
+  background-color:transparent;
+  border: none;
+  color: black;
+  padding: 5px 10px;
+  cursor: pointer;
+}
+.nav-right {
+  display: flex;
+  align-items: center;
+  gap: 20px;
+}
+.nav-right a {
+  color:black;
+  text-decoration: none;
+  display: flex;
+  align-items: center;
+  gap: 5px;
+  padding: 5px 20px;
+  border-radius: 5px;
+}
+.nav-right a:hover {
+  background-color: #575757;
+}
+.fa {
+  font-size: 18px;
+}
+#categories{
+  display:flex;
+  justify-content: space-between;
+  margin-top:6px;
+  margin:12px auto;
+  background:#fff;
+  padding: 30px 0;
+}
+#categories > div{
+  display:flex;
+  flex-direction: column;
+  align-items: center;
+  cursor: pointer;
+}
+#categories > div > p:hover{
+  border: 2px solid black;
+  border-radius: 5px;
+}
+/*----------------login----------------*/
+.box{
+  display:flex;
+  flex-direction: row;
+  margin: 50px auto;
+  justify-content: center;
+  align-items: center;
+  width:50%;
+  height:490px;
+  box-shadow: 5px 3px #888888;
+
+
+}
+.box .left-box{
+  font-size: 18px;
+  font-weight: 800;
+  color:#fff;
+  width:35%;
+  height:490px;
+  background-color: #2874f0;
+}
+.box .left-box p{
+  margin:45px;
+  margin-bottom: 100px;
+}
+
+.box .right-box{
+  display:flex;
+  flex-direction: column;
+  background-color: #fff;
+  height:490px;
+  width: 65%;
+  justify-content: center;
+  align-items: center;
+}
+.right-box input:placeholder-shown{
+  border: none;
+  width:100%;
+}
+hr{
+  background: 6px solid grey;
+  width:100%;
+  margin:2px 13px;
+}
+.box .right-box .btn{
+  background: #FB641B;
+  padding: 10px 120px;
+  margin-bottom: 50%;
+  margin-top:14px;  
+}
+.box .right-box .btn a{
+  color:#fff;
+  font-size: 12px;
+  font-weight: 800;
+}
+.box .right-box a{
+  text-decoration: none;
+}
+.box .right-box p{
+  margin:3px auto;
+  font-size: 10px;
+}
+.tag{
+  color:#2874F0;
+}
